@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./dist/output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NayePankh Foundation</title>
+</head>
+
+<body class="bg-[#252525] text-[#CFCFCF]">
+
+    <!-- navbar -->
+  <nav class="sticky top-0 z-50  flex justify-between items-center px-6 py-4 bg-[#1e1e1e]">
+    <img src="images/ngologo.jpg" alt="" md:height="40px" width="50px">
+    <div class="space-x-6 hidden md:flex">
+        <a href="#home" class="hover:text-white">Home</a>
+        <a href="#about" class="hover:text-white">About Us</a>
+        <a href="#donate" class="hover:text-white">Donate</a>
+        <a href="#contact" class="hover:text-white">Contact</a>
+    </div>
+    <button onclick="toggleMenu()" class="md:hidden text-white">☰</button>
+    </nav>
+
+    <!-- mobile -->
+    <div id="mobileMenu" class="hidden flex-col bg-[#1e1e1e] px-6 py-4 space-y-3 md:hidden " style="display: none;">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- hero section -->
+    <section id="home" class="px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+            <span class="text-grey-400 p-1 border border-grey-400 rounded-xl">UP Govt · 80G & 12A Registered NGO</span>
+            <h2 class="text-4xl font-bold text-white mb-4 mt-6">Give Wings to Their Dreams</h2>
+            <p class="text-[#7D7D7D] mb-6">
+                NayePankh Foundation is one of India's biggest student-led NGOs, uplifting underprivileged lives through
+                food, education, hygiene, and care — across Kanpur, Ghaziabad, and beyond.
+            </p>
+            <a href="#donate" class="bg-[#CFCFCF] text-[#252525] font-semibold px-6 py-3 rounded">Donate Now</a>
+        </div>
+        <img src="images/NpImg2.jpg " class="rounded-xl ">
+    </section>
+
+    <!-- about section-->
+    <section id="about" class="px-6 py-20 bg-[#2a2a2a]">
+        <h2 class="text-3xl font-bold text-white text-center mb-10">About Us</h2>
+        <div class="grid md:grid-cols-2 gap-10 items-center max-w-5xl mx-auto">
+            <img src="images/NpImg2.jpg" class="rounded-xl w-full">
+            <p class="text-[#7D7D7D] leading-relaxed">
+                "NayePankh Foundation" is a non governmental organisation with a strong desire to help the society and
+                make it a better place for all, by doing everything in our power and to make our vision successful we
+                would require your vital support. Service to mankind is the service to god. Let’s revolutionise the
+                society together!"
+            </p>
+        </div>
+    </section>
+
+    <!-- donate section -->
+    <section id="donate" class="px-6 py-20 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">It's Easy to Bring a Smile</h2>
+        <p class="italic text-[#7D7D7D] max-w-xl mx-auto mb-10">
+            "We don't ask for much — just help us with what you can. Be it money, skill, or your time. Every
+            contribution, big or small, writes a new chapter in someone's life."
+        </p>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-10">
+            <img src="images/NpImg3.jpg" class="rounded-lg h-32 w-full object-cover">
+            <img src="images/NpImg4.jpg" class="rounded-lg h-32 w-full object-cover">
+            <img src="images/NpImg5.jpg" class="rounded-lg h-32 w-full object-cover">
+            <img src="images/NpImg1.jpg" class="rounded-lg h-32 w-full object-cover">
+        </div>
+
+        <a href="https://nayepankh.com/donate" target="_blank"
+            class="bg-[#CFCFCF] text-[#252525] font-semibold px-8 py-3 rounded">Donate to NayePankh</a>
+    </section>
+
+    <!-- contact-->
+    <footer id="contact" class="bg-[#1e1e1e] px-6 py-10 text-center">
+        <h3 class="text-white font-bold mb-3">NayePankh Foundation</h3>
+        <p class="text-[#7D7D7D] text-sm">contact@nayepankh.com</p>
+        <p class="text-[#7D7D7D] text-sm mb-4">+91 8318500748</p>
+        <p class="text-[#545454] text-xs">© 2024 NayePankh Foundation. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

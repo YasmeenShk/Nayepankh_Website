@@ -1,0 +1,18 @@
+{
+  "name": "ngo_website",
+  "version": "1.0.0",
+  "main": "index.js",
+  
+"scripts": {
+  "dev": "npx tailwindcss@3.4.17 -i ./src/input.css -o ./dist/output.css --watch"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.1"
+  }
+}
